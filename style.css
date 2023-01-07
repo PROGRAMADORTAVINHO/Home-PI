@@ -1,0 +1,56 @@
+#primeira_parte{
+    background: url(images/img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 26vh;
+    justify-content: center;
+    display: flex;
+}
+.image{
+    margin-top: 10px;
+}
+.nome_da_empresa{
+    text-align: center;
+    color: black;
+    height: 30px;
+}
+
+/* Carrossel*/
+
+#slider {
+    margin-top: 10px;
+    width: 100%;
+    height: 900px;
+    max-height: 250px;
+    position: relative;
+}
+#slider img{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 156%;
+    object-fit: cover;
+    transition: opacity 800ms; 
+}
+#slider img.selected { 
+    opacity: 1;
+}
+#slider figcaption{
+    opacity: 0;
+    position: absolute;
+    transition: opacity 800ms; 
+    bottom: 0;
+}
+#slider figcaption.selected { 
+    opacity: 1;
+}
+
+#segunda_parte{
+    padding-top: 140px;
+}
+
+/* Nótica */
+.containerNoticia{
+    margin-top: 150px;
+}
