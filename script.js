@@ -1,4 +1,4 @@
-let time = 2000, //o tempo que eu quero de rotação
+let time = 10000, //o tempo que eu quero de rotação
     currentImageIndex = 0, // a primeira imagem é zero
     images = document.querySelectorAll("#slider img"); // pegas as imagens
     figcaptions = document.querySelectorAll("#slider figcaption"); // pegas as imagens
