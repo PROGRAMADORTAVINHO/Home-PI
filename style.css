@@ -79,17 +79,20 @@ body{
     margin-right: 10px;
     
 }
-#containerNoticia{
+
+.containerNoticia{
     display: flex ;
     align-items: center;
     justify-content: space-between;
     padding-top: 200px;
-}
-.noticia{
     background-color: black;
-    width: 200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
+}
+.containerNoticia .noticia img{
+    width: 250px;
+    height: 500px;
+}
+.containerNoticia .noticia{
+    width: 250px;
+    height: 500px;
 }
 
