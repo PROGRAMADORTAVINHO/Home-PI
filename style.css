@@ -1,6 +1,10 @@
+body{
+    background-color: rgb(163, 201, 107);
+}
+
 /* Logo */
 #primeira_parte{
-    background: url(images/fundo-primeiraparte.jpg);
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -8,8 +12,9 @@
     justify-content: center;
     display: flex;
 }
-.image{
+#primeira_parte img{
     margin-top: 10px;
+
 }
 .nome_da_empresa{
     text-align: center;
@@ -29,6 +34,7 @@
     height: 350px;
     max-height: 250px;
     position: relative;
+    
 }
 #slider img{
     opacity: 0;
@@ -37,13 +43,16 @@
     height: 350px;
     object-fit: cover;
     transition: opacity 800ms; 
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 #slider img.selected { 
     opacity: 1;
 }
 #slider figcaption{
     top: 20%;
-    left: 20px;
+    left: 70%;
     opacity: 0;
     position: absolute;
     transition: opacity 800ms; 
@@ -60,9 +69,27 @@
 
 /* Nótica */
 .containerNoticia{
-    margin-top: 100px;
+    margin-top: 300px;
+    padding-right: 25px;  
 }
 .card{
     width: 100%;
-    height: 95%;
+    height: 98%;
+    margin-left: 10px;
+    margin-right: 10px;
+    
 }
+#containerNoticia{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 200px;
+}
+.noticia{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
