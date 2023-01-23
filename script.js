@@ -1,13 +1,11 @@
-let time = 3000, //o tempo que eu quero de rotação
+let time = 2000, //o tempo que eu quero de rotação
     currentImageIndex = 0, // a primeira imagem é zero
     images = document.querySelectorAll("#slider img"); // pegas as imagens
-    figcaptions = document.querySelectorAll("#slider figcaption"); // pegas as imagens
     max = images.length; // máximo de imagens que existe pra mim 
 
 function nextImage() { //ele vai puxar a próxima imagem
 
     images[currentImageIndex].classList.remove("selected");
-    figcaptions[currentImageIndex].classList.remove("selected");
     //remover a classe do elemento atual , para as outras imagens
     //irem adicionando 
     currentImageIndex++; //incrementamos uma imagem para ela ir trocando
@@ -18,7 +16,6 @@ function nextImage() { //ele vai puxar a próxima imagem
     //(e então nosso banner fica rotativo)
         currentImageIndex = 0;
     images[currentImageIndex].classList.add("selected");
-    figcaptions[currentImageIndex].classList.add("selected");
 }
 
 function start() { 
