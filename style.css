@@ -40,7 +40,7 @@ body{
 .containerNoticia{
     display: flex ;
     justify-content: space-between;
-    margin: 150px 10px 100px 10px;
+    margin: 20px 10px 100px 10px;
 }
 .containerNoticia img{
     width: 100%;
@@ -60,3 +60,133 @@ body{
     margin: 0 10px 0 10px;
 }
 
+/* Root structure */
+/* 2º Carrocel  */
+
+:root {
+    --color-primary: #ffffff;
+    --color-secondary: #ffffff;
+    --color-tertiary: #ffffff;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  /* Gallery list layout */
+  
+  .gallery {
+    position: relative;
+    width: 600px;
+    height: 650px;
+    list-style: none;
+  }
+  
+  
+  /* Individual item a.k.a "slide" structure */
+  /* Tamanho do carrosel */
+  .slide {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    height: 60%;
+    background-image: linear-gradient(180deg, #8beb82, #47ee37);
+    border-radius: 25px;
+    padding: 50px;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    transition: all 0.3s;
+  }
+  
+  
+  /* Slide states */
+  
+  .slide.active {
+    opacity: 1;
+    z-index: 2;
+    transform: translate(0px) scale(1);
+  }
+  
+  .slide.lqueue {
+    opacity: 0.64;
+    z-index: 1;
+    transform: translate(-100%) scale(0.64);
+  }
+  
+  .slide.rqueue {
+    opacity: 0.64;
+    z-index: 1;
+    transform: translate(100%) scale(0.64);
+  }
+  
+  .slide.lhidden {
+    opacity: 0;
+    z-index: auto;
+    transform: translate(-160%) scale(0);
+  }
+  
+  .slide.rhidden {
+    opacity: 0;
+    z-index: auto;
+    transform: translate(160%) scale(0);
+  }
+  
+  .slide.lqueue *,
+  .slide.rqueue *,
+  .slide.lhidden *,
+  .slide.rhidden * {
+    pointer-events: none;
+  }
+  
+  .slide.lqueue *::selection,
+  .slide.rqueue *::selection,
+  .slide.lhidden *::selection,
+  .slide.rhidden *::selection {
+    background-color: transparent;
+  }
+  
+  
+  /* Slide specifics */
+  /* foto */
+  .slide--picture {
+    width: 70%;
+    height: 70%;
+    object-position: top;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-bottom: 30px;
+  }
+  /* Descrição */
+  .slide--name,
+  .slide--description {
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .slide--name {
+    color: var(--color-primary);
+    font-size: 1.6rem;
+  }
+  
+  .slide--description {
+    font-size: 1rem;
+    color: var(--color-secondary);
+  }
