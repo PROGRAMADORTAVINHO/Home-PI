@@ -40,7 +40,7 @@ body{
 .containerNoticia{
     display: flex ;
     justify-content: space-between;
-    margin: 20px 10px 100px 10px;
+    margin: 20px 10px 0px 10px;
 }
 .containerNoticia img{
     width: 100%;
