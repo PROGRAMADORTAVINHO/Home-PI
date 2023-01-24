@@ -52,7 +52,7 @@ body{
     margin: 0px 10px 0px 10px;
     width: 100%;
     height: 100%;
-    color: rgb(0, 0, 0);
+    color: black;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
 }
@@ -82,10 +82,11 @@ body{
   }
   
   .container {
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    
   }
   
   
@@ -93,9 +94,9 @@ body{
   
   .gallery {
     position: relative;
+    list-style: none;
     width: 600px;
     height: 650px;
-    list-style: none;
   }
   
   
@@ -103,16 +104,16 @@ body{
   /* Tamanho do carrosel */
   .slide {
     position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    transition: all 0.3s;
     top: 200px;
     width: 100%;
     height: 60%;
-    background-color: white;
     border-radius: 25px;
     padding: 50px;
-    display: flex;
     gap: 0.5rem;
-    align-items: center;
-    transition: all 0.3s;
   }
   
   
@@ -165,24 +166,26 @@ body{
   
   /* Slide specifics */
   /* foto */
-  .slide--picture {
-    width: 70%;
-    height: 70%;
+  .foto {
     object-position: top;
     object-fit: cover;
+    width: 100%;
+    height: 100%;    
     border-radius: 25px;
     margin-bottom: 30px;
   }
   /* Descrição */
   .slide--name,
   .slide--description {
+    align-items: center;
     width: 100%;
   }
-  
+  .slide--description p{
+    margin-top: 10px;
+  }
   .slide--name {
     color: var(--color-primary); 
   }
-  
   .slide--description {  
     color: var(--color-secondary);
   }
