@@ -49,15 +49,16 @@ body{
 }
 .containerNoticia .noticia{
     box-shadow: 0 0 10px black;
+    text-align: justify;
     margin: 0px 10px 0px 10px;
     width: 100%;
     height: 100%;
     color: black;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     border-radius: 10px;
 }
 .containerNoticia .noticia p{
-    margin: 0 10px 0 10px;
+   margin: 5px 10px 0 10px;
 }
 
 /* Root structure */
@@ -178,6 +179,7 @@ body{
   .slide--name,
   .slide--description {
     align-items: center;
+    text-align: justify;
     width: 100%;
   }
   .slide--description p{
