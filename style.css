@@ -104,16 +104,29 @@ body{
     height: 650px;
   }
   
-  
   /* Individual item a.k.a "slide" structure */
   /* Tamanho do carrosel */
+  .teste{
+    display: flex;
+    justify-content: center;
+    justify-items: flex-end;
+    position: relative;
+    top:150px;
+  }
+  .teste2{
+    display: flex;
+    justify-content: center;
+    justify-items: flex-end;
+    position: relative;
+    margin-top: 0px;
+  }
   .slide {
     position: absolute;
     display: flex;
     align-items: center;
     background-color: white;
     transition: all 0.3s;
-    top: 200px;
+    top: 30px;
     width: 100%;
     height: 60%;
     border-radius: 25px;
