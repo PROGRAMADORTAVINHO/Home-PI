@@ -43,9 +43,10 @@ body{
     margin: 20px 10px 0px 10px;
 }
 .containerNoticia img{
-    width: 100%;
-    height: 100%;
+    width: 96%;
+    height: 96%;
     border-radius: 10px;
+    margin: 10px 5px 5px 8px;
 }
 .containerNoticia .noticia{
     box-shadow: 0 0 10px black;
@@ -58,9 +59,12 @@ body{
     border-radius: 10px;
 }
 .containerNoticia .noticia p{
-   margin: 5px 10px 0 10px;
+   margin: 3px 10px 0 10px;
 }
-
+.containerNoticia .noticia a{
+  display: flex;
+  justify-content: center;
+}
 /* Root structure */
 /* 2º Carrocel  */
 
@@ -116,7 +120,9 @@ body{
     padding: 50px;
     gap: 0.5rem;
   }
-  
+  .slide button{
+    margin: 10px 10px 10px 10px;
+  }
   
   /* Slide states */
   
