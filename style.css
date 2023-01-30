@@ -40,7 +40,7 @@ body{
 .containerNoticia{
     display: flex ;
     justify-content: space-between;
-    margin: 20px 10px 0px 10px;
+    margin: -250px 10px 0px 10px;
 }
 .containerNoticia img{
     width: 96%;
@@ -52,7 +52,7 @@ body{
     box-shadow: 0 0 10px black;
     text-align: justify;
     margin: 0px 10px 0px 10px;
-    width: 100%;
+    width: 500px;
     height: 100%;
     color: black;
     background-color: white;
@@ -64,6 +64,21 @@ body{
 .containerNoticia .noticia a{
   display: flex;
   justify-content: center;
+}
+
+.teste{
+  display: flex;
+  justify-content: center;
+  justify-items: flex-end;
+  position: relative;
+  top:150px;
+}
+.teste2{
+  display: flex;
+  justify-content: center;
+  justify-items: flex-end;
+  position: relative;
+  top: -300px;
 }
 /* Root structure */
 /* 2º Carrocel  */
@@ -94,7 +109,6 @@ body{
     
   }
   
-  
   /* Gallery list layout */
   
   .gallery {
@@ -106,20 +120,7 @@ body{
   
   /* Individual item a.k.a "slide" structure */
   /* Tamanho do carrosel */
-  .teste{
-    display: flex;
-    justify-content: center;
-    justify-items: flex-end;
-    position: relative;
-    top:150px;
-  }
-  .teste2{
-    display: flex;
-    justify-content: center;
-    justify-items: flex-end;
-    position: relative;
-    margin-top: 0px;
-  }
+
   .slide {
     position: absolute;
     display: flex;
