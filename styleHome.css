@@ -1,25 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 .Titulos{
-color: rgb(101, 255, 12);
-font-family: Arial, Helvetica, sans-serif;
-font-size: 16px;
+color: black;
+font-family: 'Montserrat', sans-serif ;
+font-size: 20px;
+font-weight: bold;
 }
 .Textos{
-  color: rgb(255, 0, 255);
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 16px;
+  color: black;
+  font-family: 'Montserrat', sans-serif ;
 }
 .PrimeiroCarrocel{
   width: 100%;
   height: 500px;
-  background-color: red;
+  background-color: #aceca1;
 }
 .SegundoCarrocel{
   margin-top: -50px;
-  background-color: blue;
+  background-color: #aceca1;
   width: 100%;
   height: 550px;
 }
 .FundoNoticia{
+  background-color: #ffffff;
+}
+.teste1111{
+  width: 100%;
+  height: 300px;
   background-color: red;
 }
 
@@ -31,15 +38,12 @@ font-size: 16px;
     max-height: 250px;
 }
 #slider img{
-  margin: 3% 0% 0% 10%;
   opacity: 0;
   position: absolute;
   object-fit: cover;
-  width: 80%;
-  height: 350px;
+  width: 100%;
+  height: 450px;
   transition: opacity 800ms; 
-  border-radius: 25px;
-  box-shadow: 0 0 15px black;
 }
 #slider img.selected { 
     opacity: 1;
@@ -97,13 +101,16 @@ font-size: 16px;
     transition: all 0.3s;
     width: 100%;
     height: 60%;
-    border-radius: 25px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
     padding: 50px;
     gap: 0.5rem;
   }
   .slide button{
     margin: 10px 10px 10px 10px;
   }
+  
+
   
   /* Slide states */
   
@@ -161,6 +168,8 @@ font-size: 16px;
     height: 100%;    
     border-radius: 25px;
     margin-bottom: 30px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
   }
   /* Descrição */
   .slide--name,
@@ -213,6 +222,10 @@ font-size: 16px;
   margin: 3px 10px 0 10px;
 }
 .containerNoticia .noticia a{
+  color: black;
+  font-family: 'Montserrat', sans-serif ;
+  font-size: 17px;
+  font-weight: bold;
   text-decoration: none;
   display: flex;
   justify-content: center;
