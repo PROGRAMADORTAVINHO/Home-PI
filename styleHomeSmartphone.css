@@ -31,7 +31,6 @@ body {
   background-color: blue;
   width: 90%;
   height: 550px;
-  margin-bottom: 50px;
 }
 .containerNoticia {
 
@@ -110,7 +109,7 @@ ul {
   align-items: center;
   transition: all 0.3s;
   width: 90%;
-  height: 60%;
+  height: 90%;
   border-top-left-radius: 10%;
   border-bottom-right-radius: 10%;
   padding: 10%;
@@ -241,7 +240,6 @@ ul {
   margin-left: 5%;
   width: 90%;
   background-color: darkorchid;
-  margin-bottom: 10%;
   display: flex;
   justify-content: center;
   justify-items: flex-end;
@@ -308,6 +306,9 @@ ul {
 hr{
   display: none;
 }
+.descriçãoTablet{
+  display: none;
+}
 .SegundaParteNoticias{
   background-color: aqua;
   padding-left: 5%;
@@ -317,7 +318,7 @@ hr{
 .SegundaParteNoticia{
   background-color: fuchsia;
   display: flex;
-  margin-top: 10%;
+  margin-top: 2%;
 }
 .SegundaParteNoticiaFoto {
   background-color: black;
