@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
 body {
-  background-color: red;
   max-width: 1023px;
   margin: 0 auto;
 }
@@ -27,7 +26,6 @@ body {
 }
 
 .SegundoCarrocel {
-  background-color: blue;
   margin-left: 5%;
   width: 90%;
   height: 550px;
@@ -60,7 +58,6 @@ body {
 /* 2º Carrocel  */
 .tituloInformacoes {
   width: 100%;
-  background-color: green;
   top: 10%;
   display: flex;
   justify-content: center;
@@ -81,7 +78,6 @@ ul {
 }
 
 .container {
-  background-color: aqua;
   margin-left: 15%;
   display: flex;
   justify-content: center;
@@ -92,7 +88,6 @@ ul {
 /* Gallery list layout */
 
 .gallery {
-  background-color: blueviolet;
   position: relative;
   list-style: none;
   width: 100%;
@@ -103,7 +98,6 @@ ul {
 /* Tamanho do carrosel */
 
 .slide {
-  background-color: chartreuse;
   position: absolute;
   display: flex;
   align-items: center;
@@ -242,15 +236,14 @@ ul {
 
 .tituloNoticia {
   width: 100%;
-  background-color: darkorchid;
   display: flex;
   justify-content: center;
+  margin-bottom: 5%;
 }
 
 .PrimeiraNoticia {
-  background-color: blue;
-  width: 100%;
-  height: 50%;
+  width: 50%;
+  height: 60%;
 }
 
 .PrimeiraParteNoticiaTablet {
@@ -268,22 +261,23 @@ ul {
 .PrimeiraNoticiaDescricao {
   margin-left: 5%;
   justify-content: center;
-  background-color: cyan;
   width: 90%;
   height: 100%;
-  text-align: justify;
+  text-align: justify; 
+}
+.descriçãoTablet{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
 }
 
 .PrimeiraNoticiaDescricao .Titulos {
-  background-color: gold;
   display: flex;
   justify-content: center;
 }
 
 .SegundaNoticia {
-  background-color: darkcyan;
   justify-content: center;
-  width: 100%;
+  width: 50%;
   height: 50%;
 }
 
@@ -292,9 +286,10 @@ ul {
   width: 95%;
   height: 250px;
 }
-
+.TresNoticia{
+  display: flex;
+}
 .SegundaNoticiaDescricao {
-  background-color: cornflowerblue;
   justify-content: center;
   width: 95%;
   height: 100%;
@@ -302,13 +297,11 @@ ul {
 }
 
 .Partead {
-  background-color: blueviolet;
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 49%;
-  padding-bottom: 5%;
-  margin-top: 26%;
+  height: 81%;
+  margin-top: 10%;
 }
 
 .ad {
@@ -318,7 +311,8 @@ ul {
 }
 
 hr {
-  display: none;
+  margin-top: 5%;
+  background-color: black;
 }
 
 .teste {
@@ -332,13 +326,11 @@ hr {
 }
 
 .SegundaParteNoticias {
-  background-color: rgb(255, 251, 0);
   width: 100%;
   height: 100%;
 }
 
 .SegundaParteNoticia {
-  background-color: fuchsia;
   display: flex;
   margin-top: 5%;
   padding-left: 2%;
@@ -351,7 +343,6 @@ hr {
 }
 
 .SegundaParteNoticiaDescricao {
-  background-color: darkred;
   width: 80%;
   padding-left: 5%;
   text-align: justify;

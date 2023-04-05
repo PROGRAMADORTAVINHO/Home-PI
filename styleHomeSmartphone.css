@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
 body {
-  background-color: red;
   max-width: 767px;
   margin: 0 auto;
 }
@@ -28,7 +27,6 @@ body {
 
 .SegundoCarrocel {
   margin-left: 5%;
-  background-color: blue;
   width: 90%;
   height: 550px;
 }
@@ -60,7 +58,6 @@ body {
 .tituloInformacoes {
   margin-left: 5%;
   width: 90%;
-  background-color: green;
   top: 10%;
   display: flex;
   justify-content: center;
@@ -81,7 +78,6 @@ ul {
 }
 
 .container {
-  background-color: aqua;
   margin-left: 15%;
   display: flex;
   justify-content: center;
@@ -92,7 +88,6 @@ ul {
 /* Gallery list layout */
 
 .gallery {
-  background-color: blueviolet;
   position: relative;
   list-style: none;
   width: 100%;
@@ -103,7 +98,6 @@ ul {
 /* Tamanho do carrosel */
 
 .slide {
-  background-color: chartreuse;
   position: absolute;
   display: flex;
   align-items: center;
@@ -239,14 +233,12 @@ ul {
 .tituloNoticia {
   margin-left: 5%;
   width: 90%;
-  background-color: darkorchid;
   display: flex;
   justify-content: center;
   justify-items: flex-end;
   position: relative;
 }
 .PrimeiraNoticia {
-  background-color: blue;
   width: 100%;
   height: 50%;
 }
@@ -259,20 +251,17 @@ ul {
 .PrimeiraNoticiaDescricao {
   margin-left: 5%;
   justify-content: center;
-  background-color: cyan;
   width: 90%;
   height: 100%;
   text-align: justify;
 }
 .PrimeiraNoticiaDescricao .Titulos {
-  background-color: gold;
   display: flex;
   justify-content: center;
 }
 .SegundaNoticia {
-  background-color: darkcyan;
   justify-content: center;
-  margin-top: 15%;
+  margin-top: 5%;
   width: 100%;
   height: 50%;
   padding-left: 5%;
@@ -283,20 +272,18 @@ ul {
   height: 250px;
 }
 .SegundaNoticiaDescricao {
-  background-color: cornflowerblue;
   justify-content: center;
   width: 95%;
   height: 100%;
   text-align: justify;
 }
 .Partead{
-  background-color: blueviolet;
   display: flex;
-  justify-content: center;
   margin-top: 5%;
   width: 100%;
   height: 50%;
   padding-bottom: 5%;
+  padding-left: 5%;
 }
 .ad {
   background-color: black;
@@ -310,13 +297,11 @@ hr{
   display: none;
 }
 .SegundaParteNoticias{
-  background-color: aqua;
   padding-left: 5%;
   width: 100%;
   height: 100%;
 }
 .SegundaParteNoticia{
-  background-color: fuchsia;
   display: flex;
   margin-top: 2%;
 }
@@ -326,7 +311,6 @@ hr{
   height: 100px;
 }
 .SegundaParteNoticiaDescricao {
-  background-color: darkred;
   width: 80%;
   padding-left: 5%;
   text-align: justify;
